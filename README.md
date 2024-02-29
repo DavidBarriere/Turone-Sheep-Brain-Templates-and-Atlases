@@ -68,7 +68,7 @@ The TSBTA resources have been organized as three main sections : Head templates,
 
   #### CT template
 In this version of the TSBTA resources we included a CT template built from 9 animals on our CT-scan (Siemens Somatom Definition AS, Siemens Corp., Germany). The X-ray source was set at 100 kV and 120 mA/s. A total of 800 slices were acquired using the following parameters: Thickness = 0.4 mm, Slice Number = 800, Field of View = 204,8x 204,8 mm, matrix = 512x512, final resolution 0.4 mm3) reconstructed using a filter Safire I26. DICOM data were converted to NIFTI format
-CT data were spatially normalized to the TSBTA in-vivo template using the previously described methods.
+and CT data were spatially normalized to the TSBTA in-vivo template using the previously described methods.
 
 Spatial resolution 0.25x0.25x0.25mm.
 
