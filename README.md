@@ -90,18 +90,18 @@ For any questions regarding the TSBTA ressource, please email David A. Barrière
 
 # REFERENCES
 
-Ella A, Delgadillo JA, Chemineau P, Keller M. Computation of a high-resolution MRI 3D stereotaxic atlas of the sheep brain. J Comp Neurol. 2017 Feb 15;525(3):676-692. doi: 10.1002/cne.24079. Epub 2016 Aug 9. PMID: 27503489.
+Ella A, Delgadillo JA, Chemineau P, Keller M. Computation of a high-resolution MRI 3D stereotaxic atlas of the sheep brain. J Comp Neurol. 2017 Feb 15;525(3):676-692. doi: 10.1002/cne.24079.
 
-Ella A, Keller M. Construction of an MRI 3D high resolution sheep brain template. Magn Reson Imaging. 2015 Dec;33(10):1329-1337. doi: 10.1016/j.mri.2015.09.001. Epub 2015 Sep 9. PMID: 26363468.
+Ella A, Keller M. Construction of an MRI 3D high resolution sheep brain template. Magn Reson Imaging. 2015 Dec;33(10):1329-1337. doi: 10.1016/j.mri.2015.09.001.
 
 
 # RELATED WORKS USING THE TSBTA RESSOURCES
 
-Murray SJ, Almuqbel MM, Felton SA, Palmer NJ, Myall DJ, Shoorangiz R, Ella A, Keller M, Palmer DN, Melzer TR, Mitchell NL. Progressive MRI brain volume changes in ovine models of CLN5 and CLN6 neuronal ceroid lipofuscinosis. Brain Commun. 2023 Jan 2;5(1):fcac339. doi: 10.1093/braincomms/fcac339. PMID: 36632184; PMCID: PMC9830986.
+Murray SJ, Almuqbel MM, Felton SA, Palmer NJ, Myall DJ, Shoorangiz R, Ella A, Keller M, Palmer DN, Melzer TR, Mitchell NL. Progressive MRI brain volume changes in ovine models of CLN5 and CLN6 neuronal ceroid lipofuscinosis. Brain Commun. 2023 Jan 2;5(1):fcac339. doi: 10.1093/braincomms/fcac339.
 
-Barrière DA, Ella A, Adriaensen H, Roselli CE, Chemineau P, Keller M. In vivo magnetic resonance imaging reveals the effect of gonadal hormones on morphological and functional brain sexual dimorphisms in adult sheep. Psychoneuroendocrinology. 2019 Nov;109:104387. doi: 10.1016/j.psyneuen.2019.104387. Epub 2019 Aug 13. PMID: 31465941.
+Barrière DA, Ella A, Adriaensen H, Roselli CE, Chemineau P, Keller M. In vivo magnetic resonance imaging reveals the effect of gonadal hormones on morphological and functional brain sexual dimorphisms in adult sheep. Psychoneuroendocrinology. 2019 Nov;109:104387. doi: 10.1016/j.psyneuen.2019.104387.
 
-Nelvagal HR, Eaton SL, Wang SH, Eultgen EM, Takahashi K, Le SQ, Nesbitt R, Dearborn JT, Siano N, Puhl AC, Dickson PI, Thompson G, Murdoch F, Brennan PM, Gray M, Greenhalgh SN, Tennant P, Gregson R, Clutton E, Nixon J, Proudfoot C, Guido S, Lillico SG, Whitelaw CBA, Lu JY, Hofmann SL, Ekins S, Sands MS, Wishart TM, Cooper JD. Cross-species efficacy of enzyme replacement therapy for CLN1 disease in mice and sheep. J Clin Invest. 2022 Oct 17;132(20):e163107. doi: 10.1172/JCI163107. PMID: 36040802; PMCID: PMC9566914.
+Nelvagal HR, Eaton SL, Wang SH, Eultgen EM, Takahashi K, Le SQ, Nesbitt R, Dearborn JT, Siano N, Puhl AC, Dickson PI, Thompson G, Murdoch F, Brennan PM, Gray M, Greenhalgh SN, Tennant P, Gregson R, Clutton E, Nixon J, Proudfoot C, Guido S, Lillico SG, Whitelaw CBA, Lu JY, Hofmann SL, Ekins S, Sands MS, Wishart TM, Cooper JD. Cross-species efficacy of enzyme replacement therapy for CLN1 disease in mice and sheep. J Clin Invest. 2022 Oct 17;132(20):e163107. doi: 10.1172/JCI163107.
 
-Russell KN, Mitchell NL, Anderson NG, Bunt CR, Wellby MP, Melzer TR, Barrell GK, Palmer DN. Computed tomography provides enhanced techniques for longitudinal monitoring of progressive intracranial volume loss associated with regional neurodegeneration in ovine neuronal ceroid lipofuscinoses. Brain Behav. 2018 Sep;8(9):e01096. doi: 10.1002/brb3.1096. Epub 2018 Aug 23. PMID: 30136763; PMCID: PMC6160654.
+Russell KN, Mitchell NL, Anderson NG, Bunt CR, Wellby MP, Melzer TR, Barrell GK, Palmer DN. Computed tomography provides enhanced techniques for longitudinal monitoring of progressive intracranial volume loss associated with regional neurodegeneration in ovine neuronal ceroid lipofuscinoses. Brain Behav. 2018 Sep;8(9):e01096. doi: 10.1002/brb3.1096. Epub 2018 Aug 23.
 
