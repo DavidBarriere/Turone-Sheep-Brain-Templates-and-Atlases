@@ -8,7 +8,9 @@ They were developped as part of the ImaCervoRepro project, a collaborative proje
 They provide a unified and standardized framework for the analysis of multimodal sheep brain imaging data, allowing the reporting of results within the a sterotaxic coordinate system centered to the lambda point (junction between lambdoid and sagittal sutures). 
 
 In this second version, standardized MRI compatible in-vivo templates have been built from 4-years old 17 Iles de France ewes acquired twice (34 scans) using a 3T scanner (Siemens Verio) onto the PIXANIM Imaging plateform (https://eng-pixanim.val-de-loire.hub.inrae.fr/) and emulated using the methods developed by Gabriel A. Devenyi (https://github.com/gdevenyi) available here : 
-https://github.com/CoBrALab/optimized_antsMultivariateTemplateConstruction. This pipeline is a re-implementation of the ANTs template construction pipeline requiring ANTs for the primary commands, and running on our cluster facilities using qbatch (https://islande.hub.inrae.fr/infrastructure).
+https://github.com/CoBrALab/optimized_antsMultivariateTemplateConstruction.
+
+This pipeline is a re-implementation of the ANTs template construction pipeline requiring ANTs for the primary commands, and running on our cluster facilities using qbatch (https://islande.hub.inrae.fr/infrastructure).
 
 Using this methodology we firstly, updated the previous TSBTA spaces (T1, IR, T2) previously generated using the FSL and SPM and normalized the whole head images instead of brain only.
 
@@ -67,7 +69,9 @@ The TSBTA resources have been organized as three main sections : Head templates,
 
 
   #### CT template
-In this version of the TSBTA resources we included a CT template built from 9 animals on our CT-scan (Siemens Somatom Definition AS, Siemens Corp., Germany). The X-ray source was set at 100 kV and 120 mA/s. A total of 800 slices were acquired using the following parameters: Thickness = 0.4 mm, Slice Number = 800, Field of View = 204,8x 204,8 mm, matrix = 512x512, final resolution 0.4 mm3) reconstructed using a filter Safire I26. DICOM data were converted to NIFTI format
+In this version of the TSBTA resources we included a CT template built from 9 animals on our CT-scan (Siemens Somatom Definition AS, Siemens Corp., Germany). The X-ray source was set at 100 kV and 120 mA/s.
+
+A total of 800 slices were acquired using the following parameters: Thickness = 0.4 mm, Slice Number = 800, Field of View = 204,8x 204,8 mm, matrix = 512x512, final resolution 0.4 mm3) reconstructed using a filter Safire I26. DICOM data were converted to NIFTI format
 and CT data were spatially normalized to the TSBTA in-vivo template using the previously described methods.
 
 Spatial resolution 0.25x0.25x0.25mm.
@@ -85,21 +89,19 @@ TSBTA ressources are provided at the scanner resolution and are oriented in ante
 For any questions regarding the TSBTA ressource, please email David A. Barrière (david.barriere@cnrs.fr).
 
 # REFERENCES
-Barrière, D.A. et al. The TSBTA sheep brain templates and atlases for multimodal MRI data analysis and visualization. Nat Commun 10, 5699 (2019). https://doi.org/10.1038/s41467-019-13575-7
 
-Kleven, H. et al. Waxholm Space atlas of the sheep brain: a 3D atlas supporting data analysis and integration. Nat Methods 20, 1822–1829 (2023). https://doi.org/10.1038/s41592-023-02034-3
+Ella A, Delgadillo JA, Chemineau P, Keller M. Computation of a high-resolution MRI 3D stereotaxic atlas of the sheep brain. J Comp Neurol. 2017 Feb 15;525(3):676-692. doi: 10.1002/cne.24079. Epub 2016 Aug 9. PMID: 27503489.
 
-Barrière, D.A. et al. Combination of high-fat/high-fructose diet and low-dose streptozotocin to model long-term type-2 diabetes complications. Sci Rep. 2018 Jan 11;8(1):424. doi: 10.1038/s41598-017-18896-5. PMID: 29323186; PMCID: PMC5765114.
+Ella A, Keller M. Construction of an MRI 3D high resolution sheep brain template. Magn Reson Imaging. 2015 Dec;33(10):1329-1337. doi: 10.1016/j.mri.2015.09.001. Epub 2015 Sep 9. PMID: 26363468.
+
 
 # RELATED WORKS USING THE TSBTA RESSOURCES
-Grandjean J. et al. A consensus protocol for functional connectivity analysis in the sheep brain. Nat Neurosci. 2023 Apr;26(4):673-681. doi: 10.1038/s41593-023-01286-8. Epub 2023 Mar 27. Erratum in: Nat Neurosci. 2023 Jun;26(6):1127-1128. PMID: 36973511; PMCID: PMC10493189.
 
-Vidal B. et al. Inter-subject registration and application of the TSBTA sheep brain atlas for regional labeling in functional ultrasound imaging. J Neurosci Methods. 2021 May 1;355:109139. doi: 10.1016/j.jneumeth.2021.109139. Epub 2021 Mar 16. PMID: 33741345.
+Murray SJ, Almuqbel MM, Felton SA, Palmer NJ, Myall DJ, Shoorangiz R, Ella A, Keller M, Palmer DN, Melzer TR, Mitchell NL. Progressive MRI brain volume changes in ovine models of CLN5 and CLN6 neuronal ceroid lipofuscinosis. Brain Commun. 2023 Jan 2;5(1):fcac339. doi: 10.1093/braincomms/fcac339. PMID: 36632184; PMCID: PMC9830986.
 
-Barrière D.A. et al. Paracetamol is a centrally acting analgesic using mechanisms located in the periaqueductal grey. Br J Pharmacol. 2020 Apr;177(8):1773-1792. doi: 10.1111/bph.14934. Epub 2020 Jan 22. PMID: 31734950; PMCID: PMC7070177
+Barrière DA, Ella A, Adriaensen H, Roselli CE, Chemineau P, Keller M. In vivo magnetic resonance imaging reveals the effect of gonadal hormones on morphological and functional brain sexual dimorphisms in adult sheep. Psychoneuroendocrinology. 2019 Nov;109:104387. doi: 10.1016/j.psyneuen.2019.104387. Epub 2019 Aug 13. PMID: 31465941.
 
-Barrière D.A. et al. Structural and functional alterations in the retrosplenial cortex following neuropathic pain. Pain. 2019 Oct;160(10):2241-2254. doi: 10.1097/j.pain.0000000000001610. PMID: 31145220.
+Nelvagal HR, Eaton SL, Wang SH, Eultgen EM, Takahashi K, Le SQ, Nesbitt R, Dearborn JT, Siano N, Puhl AC, Dickson PI, Thompson G, Murdoch F, Brennan PM, Gray M, Greenhalgh SN, Tennant P, Gregson R, Clutton E, Nixon J, Proudfoot C, Guido S, Lillico SG, Whitelaw CBA, Lu JY, Hofmann SL, Ekins S, Sands MS, Wishart TM, Cooper JD. Cross-species efficacy of enzyme replacement therapy for CLN1 disease in mice and sheep. J Clin Invest. 2022 Oct 17;132(20):e163107. doi: 10.1172/JCI163107. PMID: 36040802; PMCID: PMC9566914.
 
-Magalhães, R. et al Resting-State Functional MR Imaging and Spectroscopy Study of the Dorsal Hippocampus in the Chronic Unpredictable Stress sheep Model. J Neurosci. 2019 May 8;39(19):3640-3650. doi: 10.1523/JNEUROSCI.2192-18.2019. Epub 2019 Feb 25. PMID: 30804096; PMCID: PMC6510342.
+Russell KN, Mitchell NL, Anderson NG, Bunt CR, Wellby MP, Melzer TR, Barrell GK, Palmer DN. Computed tomography provides enhanced techniques for longitudinal monitoring of progressive intracranial volume loss associated with regional neurodegeneration in ovine neuronal ceroid lipofuscinoses. Brain Behav. 2018 Sep;8(9):e01096. doi: 10.1002/brb3.1096. Epub 2018 Aug 23. PMID: 30136763; PMCID: PMC6160654.
 
-Magalhães, R. et al The dynamics of stress: a longitudinal MRI study of sheep brain structure and connectome. Mol Psychiatry. 2018 Oct;23(10):1998-2006. doi: 10.1038/mp.2017.244. Epub 2017 Dec 5. PMID: 29203852.
