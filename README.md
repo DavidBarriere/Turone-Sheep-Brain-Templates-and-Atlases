@@ -68,7 +68,7 @@ The TSBTA resources have been organized as three main sections : Head templates,
       prob02.nii.gz
       prob03.nii.gz
 
-  #### CT template
+  ### CT template
   
 In this version of the TSBTA resources we included a CT template built from 9 animals on our CT-scan (Siemens Somatom Definition AS, Siemens Corp., Germany). The X-ray source was set at 100 kV and 120 mA/s.
 
