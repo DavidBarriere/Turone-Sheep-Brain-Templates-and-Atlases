@@ -24,7 +24,8 @@ Eventually, we updated the original TSBTA atlas by adding a complete segmentatio
 The TSBTA resources have been organized as two main sections : Head templates and Brain templates
 
   ### Head templates
-  In this section a set of templates, priors and brain masks is available for ex-vivo and in-vivo data normalization
+  In this section a set of templates, priors and brain masks is available for ex-vivo and in-vivo data normalization.
+  
   T1-weighted template (3D MPRAGE sequence) + IR T1-weighted template (3D IR-SPACE sequence) + T2-weighted (3D T2 MEDIC) + associated probabilistics maps of GM (prob01), WM (prob02) and CSF (prob03) + brain masks + brain atlas and its associated labels nomenclature at the ITKSnap format.
   
   Spatial resolution = 0.5x0.5x0.5mm.
