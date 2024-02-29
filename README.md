@@ -7,14 +7,12 @@ The TSBTA resources are a set of standardized MRI compatible templates and atlas
 They were developped as part of the ImaCervoRepro project, a collaborative project funded by the regional council of the Centre Val-de-Loire (convention 201500104011, 2015-2018).
 They provide a unified and standardized framework for the analysis of multimodal sheep brain imaging data, allowing the reporting of results within the a sterotaxic coordinate system centered to the lambda point (junction between lambdoid and sagittal sutures). 
 
-In this second version, standardized MRI compatible in-vivo templates have been built from 4-years old 17 Iles de France ewes acquired twice (34 scans) using a 3T scanner (Siemens Verio) onto the PIXANIM Imaging plateform (https://eng-pixanim.val-de-loire.hub.inrae.fr/) and emulated using the methods developed by Gabriel A. Devenyi (https://github.com/gdevenyi) and available here : 
-https://github.com/CoBrALab/optimized_antsMultivariateTemplateConstruction. 
-This pipeline is a re-implementation of the ANTs template construction pipeline requiring ANTs for the primary commands, and running on our cluster facilities using qbatch (https://islande.hub.inrae.fr/infrastructure).
+In this second version, standardized MRI compatible in-vivo templates have been built from 4-years old 17 Iles de France ewes acquired twice (34 scans) using a 3T scanner (Siemens Verio) onto the PIXANIM Imaging plateform (https://eng-pixanim.val-de-loire.hub.inrae.fr/) and emulated using the methods developed by Gabriel A. Devenyi (https://github.com/gdevenyi) available here : 
+https://github.com/CoBrALab/optimized_antsMultivariateTemplateConstruction. This pipeline is a re-implementation of the ANTs template construction pipeline requiring ANTs for the primary commands, and running on our cluster facilities using qbatch (https://islande.hub.inrae.fr/infrastructure).
 
-Using this methodology we firstly, updated the previous TSBTA spaces (T1, IR, T2) previously generated using the DARTEL Methods implemented in FSL and normalized the whole head images instead of brain.
+Using this methodology we firstly, updated the previous TSBTA spaces (T1, IR, T2) previously generated using the FSL and SPM and normalized the whole head images instead of brain only.
 
-Secondly, we updated the probabilistic maps of the sheep brain which are mandatory for the automatic segmentation of the sheep brain and standardisation of morphometric analysis.
-Namely, we created new maps of Grey Matter, White Matter and CSF. 
+Secondly, we updated the probabilistic maps (grey matter, White matter, CSF) of the sheep brain which are mandatory for the automatic segmentation of the sheep brain and standardisation of morphometric analysis.
 
 Thirdly, additionnal head templates (T1, IR, T2) and their associated Grey Matter, White Matter and CSF maps have been created using the optimized ANTs methodology.
 
@@ -27,19 +25,22 @@ The TSBTA resources have been organized as two main sections : Head templates an
 
   ### Head templates
   In this section a set of templates, priors and brain masks is available for ex-vivo and in-vivo data normalization
-  #### Ex-vivo T2*-weighted
-  T2*-weighted template + T2*-weighted map + associated probabilistics maps (GM, WM, CSF, Skull, outbrain) + brain mask.
+  T1-weighted template (3D MPRAGE sequence) + IR T1-weighted template (3D IR-SPACE sequence) + T2-weighted (3D T2 MEDIC) + associated probabilistics maps of GM (prob01), WM (prob02) and CSF (prob03) + brain masks + brain atlas and its associated labels nomenclature at the ITKSnap format.
   
-  Spatial resolution 0.09x0.09x0.09mm.
+  Spatial resolution = 0.5x0.5x0.5mm.
+  Matrix size = 288x288x384
   
-      SIGMA_ExVivo_Anatomical_Brain_csf.nii.gz
-      SIGMA_ExVivo_Anatomical_Brain_gm.nii.gz
-      SIGMA_ExVivo_Anatomical_Brain_mask.nii.gz
-      SIGMA_ExVivo_Anatomical_Brain_out.nii.gz
-      SIGMA_ExVivo_Anatomical_Brain_skull.nii.gz
-      SIGMA_ExVivo_Anatomical_Brain_t2starmap.nii.gz
-      SIGMA_ExVivo_Anatomical_Brain_template.nii.gz
-      SIGMA_ExVivo_Anatomical_Brain_wm.nii.gz
+      atlas_labels.txt
+      atlas.nii.gz
+      head_ir_template.nii.gz
+      head_t1_template.nii.gz
+      head_t2_template.nii.gz
+      mask_brain_eroded.nii.gz
+      mask_brain.nii.gz
+      prob01.nii.gz
+      prob02.nii.gz
+      prob03.nii.gz
+
 
   #### Ex-vivo diffusion
   B0 template + FA template + associated probabilistics maps (GM, WM, CSF, Skull, outbrain) + brain mask.
