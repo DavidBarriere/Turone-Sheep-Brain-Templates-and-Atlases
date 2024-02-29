@@ -1,5 +1,3 @@
-# Turone-Sheep-Brain-Templates-and-Atlases
-
 # The Turone Sheep Brain Templates and Atlases
 
 The current document is a short description of the second version of the Turone Sheep Brain Templates and Atlases resources (TSBTA) dedicated to sheep brain MRI data analysis. 
