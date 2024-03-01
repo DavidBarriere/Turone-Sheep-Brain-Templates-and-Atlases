@@ -1,10 +1,7 @@
 # The Turone Sheep Brain Templates and Atlases
 
 
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10730961.svg)](https://doi.org/10.5281/zenodo.10730961)
-
-
 
 The current document is a short description of the second version of the Turone Sheep Brain Templates and Atlases resources (TSBTA) dedicated to sheep brain MRI data analysis. 
 For a full description of the resources and the methodologies used to create them please consult the main publication [Ella et al 2017; Ella et al 2015].
